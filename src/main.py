@@ -2,9 +2,7 @@ from typing import Self
 from Setup import Setup
 from GuessingLocation import GuessingLocation 
 from LogIn import *
-from SignUp import *
-from WinnersReward import *
-from LoadData import *
+
 
 class Main:
     def main():
