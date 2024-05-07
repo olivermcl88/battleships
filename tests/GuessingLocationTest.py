@@ -17,8 +17,6 @@ class TestGuessingLocation(unittest.TestCase):
         player_hits = {"Total": 3}
         self.assertEqual(GuessingLocation.isWinner(player_hits, "Player 2"), "")
 
-    # Additional tests can be added here for other methods like displayGrid, guessLocation, etc.
-
     def test_guess_location(self):
         # Setup
         oppositionGrid = [
