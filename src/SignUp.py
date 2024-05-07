@@ -1,5 +1,5 @@
 import csv
-from ReadCSVFile import ReadCSVFile
+from src.ReadCSVFile import ReadCSVFile
 
 class SignUp:
     def __init__(self):

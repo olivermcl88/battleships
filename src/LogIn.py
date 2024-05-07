@@ -1,5 +1,5 @@
-from LoadData import PlayerLoad
-from SignUp import SignUp
+from src.LoadData import PlayerLoad
+from src.SignUp import SignUp
 class LogIn:
     def get_password(self,username):
         playerLoad = PlayerLoad()

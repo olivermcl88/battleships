@@ -1,5 +1,5 @@
-from ReadCSVFile import ReadCSVFile
-from Player import Player
+from src.ReadCSVFile import *
+from src.Player import Player
 
 
 class PlayerLoad:

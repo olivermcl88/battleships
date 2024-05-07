@@ -1,7 +1,7 @@
 from typing import Self
-from Setup import Setup
-from GuessingLocation import GuessingLocation 
-from LogIn import *
+from src.Setup import Setup
+from src.GuessingLocation import GuessingLocation
+from src.LogIn import *
 
 
 class Main:

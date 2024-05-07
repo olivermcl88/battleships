@@ -1,4 +1,6 @@
 import csv, os
+
+
 class ReadCSVFile:
 
     def fix_working_directory(self):
@@ -7,10 +9,10 @@ class ReadCSVFile:
             os.chdir("../")
             current_working_directory = os.getcwd()
 
-    def get_file_data(self,file_name):
+    def get_file_data(self, file_name):
         self.fix_working_directory()
         file_data = []
-        with open("resource/" + file_name, 'rt')as data_file:
+        with open("resource/" + file_name, 'rt') as data_file:
             file_reader = csv.reader(data_file)
             for row in file_reader:
                 file_data.append(row)
